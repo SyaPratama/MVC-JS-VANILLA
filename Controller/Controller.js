@@ -7,7 +7,7 @@ export class Controller{
   {
     View.render(home);
   }
-  test()
+  about()
   {
     View.render(about);
   }

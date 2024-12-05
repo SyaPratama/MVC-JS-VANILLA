@@ -1,9 +1,11 @@
+import nav from "./partials/nav.js";
 export default function home()
 {
     return (
         `
-        <h1>
-            Hi
-        </h1>
+        ${nav()}
+         <div class="min-h-screen mx-auto flex justify-center items-center">
+            <h1 class="text-7xl text-[rgba(255,255,255,.2)] animate-bounce">Home</h1>
+        </div>
         `);
 }
